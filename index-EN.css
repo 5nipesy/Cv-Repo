@@ -174,7 +174,7 @@ padding-right: 10px;
 .html {width: 60%; background-color: var(--trim-colour);} /* Green */
 .css {width: 60%; background-color: var(--trim-colour);} /* Blue */
 .js {width: 50%; background-color: var(--trim-colour);} /* Red */
-.React {width: 25%; background-color: var(--trim-colour);} /* Dark Grey */
+.react {width: 25%; background-color: var(--trim-colour);} /* Dark Grey */
 
 .Max {width: 90%; background-color: var(--trim-colour);} /* Green */
 .blender {width: 80%; background-color: var(--trim-colour);} /* Blue */
