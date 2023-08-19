@@ -1,0 +1,420 @@
+#topbar {
+    height: 10px;
+    background: var(--trim-colour);
+}
+
+#title_container {
+    height: 200px;
+    background: var(--banner-colors);
+}
+
+#edgebar {
+    height: 5px;
+    background: var(--trim-colour);
+}
+
+body {
+    margin: 0%;
+}
+
+#mug-shot img {
+    width: 80%;
+    border-radius: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#mug-shot {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#title_container h1 {
+    color: var(--link-text-color);
+}
+
+#title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kontakt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2px;
+    border-top: 2px solid var(--trim-colour);
+    border-bottom: 2px solid var(--trim-colour);
+padding-bottom: 2px;
+}
+
+#kontakt svg {
+    height: 50px;
+    border: 5px solid var(--trim-colour);
+    padding: 3%;
+    border-radius: 100%;
+}
+
+#kontakt p {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.subject {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    width: 100%;
+    border-top: 2px solid var(--trim-colour);
+    border-bottom: 2px solid var(--trim-colour);
+}
+
+#kontakt img {
+ width: 60px;
+  border: 5px solid var(--trim-colour);
+ padding: 3%;
+ border-radius: 100%;
+}
+
+
+#funstuff {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2px;
+  border-bottom: 2px solid var(--trim-colour);
+padding-bottom: 2px;
+}
+
+/* CSS */
+.button-18 {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+border-radius: 6px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+border-radius: 6px;
+padding-right: 10px;
+}
+
+.html {width: 60%; background-color: var(--trim-colour);} /* Green */
+.css {width: 60%; background-color: var(--trim-colour);} /* Blue */
+.js {width: 30%; background-color: var(--trim-colour);} /* Red */
+.php {width: 0%; background-color: var(--trim-colour);} /* Dark Grey */
+
+.Max {width: 90%; background-color: var(--trim-colour);} /* Green */
+.blender {width: 80%; background-color: var(--trim-colour);} /* Blue */
+.F360 {width: 50%; background-color: var(--trim-colour);} /* Red */
+.Tm {width: 60%; background-color: var(--trim-colour);} /* Dark Grey */
+
+
+
+#funstuff {
+    display: none;
+}
+
+#menu1 {
+    width: 100%;
+}
+
+#menu2 {
+    width: 100%;
+}
+/* stage slider  */
+/* The switch - the box around the slider */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  
+  /* Hide default HTML checkbox */
+  
+  .switch input {
+    display: none;
+  }
+  
+  
+  /* The slider */
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked+.slider {
+    background-color: var(--trim-colour);
+  }
+  
+  input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+  /* Rounded sliders */
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  #menu2 {
+  display:none;
+  }
+
+  /* navs */
+  #mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    right: 0;
+  }
+  
+  
+  
+  #button-en {
+top: 20px;
+background-color: var(--trim-colour);
+}
+
+#button-en img {
+  width: 20%;
+  padding-left: 10px;
+top: 100px;  
+}
+
+  #about {
+    top: 80px;
+    background-color: var(--trim-colour);
+  }
+  
+  #art {
+    top: 140px;
+    background-color:var(--trim-colour);
+  }
+  
+  #projects {
+    top: 200px;
+    background-color:var(--trim-colour);
+  }
+  
+  #contact {
+    top: 260px;
+    background-color: var(--trim-colour)
+  }
+
+ 
+
+  @media only screen and (max-width: 400px) {
+    #mysidenav {
+        display: none;
+    }
+
+    .sidenav {
+        display: none;
+    }
+  }
+
+  .scene {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    perspective: 800px;}
+  
+    .card {
+      position: relative;
+      width: 240px;
+      height: 300px;
+      color: white;
+      cursor: pointer;
+      transition: 1s ease-in-out;
+      transform-style: preserve-3d;}
+  
+      .card:hover {
+        transform: rotateY(0.5turn);
+      }
+  
+      .card__face {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        transition: 1s ease-in-out;
+        -webkit-box-reflect: below 0
+          linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));}
+  
+        .card img {
+          width: 240px;
+          height: 300px;
+          object-fit: cover;
+        }
+  
+        .card__face--back {
+          transform: rotateY(0.5turn);
+        }
+      
+        @media only screen and (max-width: 900px) {
+           
+            .scene {display: none;}
+           
+          }
+  
+  
+ 
+ 
+ 
+  /* pc up  */
+@media only screen and (min-width: 601px) {
+    #main {
+        display: flex;
+        flex-direction: row;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+    #funstuff {
+        display: flex;
+        width: 100%;
+    }
+
+    .subject {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        width: 100%;
+        border-top: 0px solid var(--trim-colour);
+        border-bottom: 2px solid var(--trim-colour);
+    }
+    
+.about {
+  padding: 0px;
+}
+
+#box2 {
+    width: 60%;
+}
+
+#box1 {
+    width: 40%;
+}
+
+}

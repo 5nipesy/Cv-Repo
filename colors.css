@@ -1,0 +1,16 @@
+/* colour manager */
+:root {
+    --trim-colour: teal;
+    --banner-colors: black;
+    --background: #171616;
+    --backround-trim: #333333;
+    --content-list-bg:  #d3d3d3;
+  --link-text-color: white;
+  --link-text-shadow: black; 
+  --from-bg: darkred;
+  
+
+
+
+}
+  
